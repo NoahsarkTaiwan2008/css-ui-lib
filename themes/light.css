@@ -1,0 +1,118 @@
+/* ================================================================
+   Light Theme
+   ================================================================ */
+
+/* 設置基本的背景顏色和文字顏色 */
+body.light-theme {
+    background-color: #f4f4f4;
+    /* 淺灰背景 */
+    color: #333;
+    /* 深灰文字 */
+}
+
+/* 設置頁面的標題顏色 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #222;
+    /* 深色標題 */
+}
+
+/* 設置鏈接的顏色 */
+a {
+    color: #4CAF50;
+    /* 淺綠色鏈接 */
+}
+
+a:hover {
+    color: #45a049;
+    /* 鏈接 hover 顏色 */
+}
+
+/* 按鈕樣式 */
+.button {
+    background-color: #4CAF50;
+    /* 淺綠色按鈕 */
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049;
+    /* hover 顏色 */
+}
+
+.button:active {
+    background-color: #3e8e41;
+    /* active 顏色 */
+}
+
+/* 設置卡片背景顏色 */
+.card {
+    background-color: white;
+    /* 白色背景 */
+    color: #333;
+    /* 深灰文字 */
+    border: 1px solid #ddd;
+    /* 淺灰邊框 */
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* hover 增強陰影效果 */
+}
+
+/* 設置導航欄的背景顏色 */
+.navbar {
+    background-color: #4CAF50;
+    /* 淺綠色背景 */
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #45a049;
+    /* 淺綠色 hover */
+}
+
+/* 設置表單輸入框 */
+input,
+textarea,
+select {
+    background-color: #fff;
+    /* 白色背景 */
+    border: 2px solid #ccc;
+    /* 淺灰邊框 */
+    color: #333;
+    /* 深灰文字 */
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    margin: 8px 0;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #4CAF50;
+    /* 聚焦時顏色 */
+    outline: none;
+}

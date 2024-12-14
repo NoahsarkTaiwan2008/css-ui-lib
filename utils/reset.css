@@ -1,0 +1,79 @@
+/* ================================================================
+   CSS Reset
+   ================================================================ */
+
+/* 讓所有元素的 box-sizing 行為一致 */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 去除標題的底部間距 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+/* 讓段落元素間距為 0 */
+p {
+    margin: 0;
+}
+
+/* 去除鏈接的下劃線 */
+a {
+    text-decoration: none;
+    color: inherit;
+    /* 繼承父元素的顏色 */
+}
+
+/* 清除列表的預設樣式 */
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* 清除表格的預設邊距 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* 使圖片不會超出容器的範圍 */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 清除表單元素的預設樣式 */
+input,
+textarea,
+select {
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* 讓表單元素在 focus 時不顯示藍色輪廓 */
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+/* 設置 body 的基本樣式 */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}

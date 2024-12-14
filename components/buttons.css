@@ -1,0 +1,25 @@
+/* 按鈕樣式 */
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.button:active {
+    background-color: #3e8e41;
+}
+
+.button.disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
